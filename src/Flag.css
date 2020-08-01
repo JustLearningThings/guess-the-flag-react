@@ -1,0 +1,14 @@
+#flag {
+	width: 450px;
+	height: 275px;
+	margin-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+	#flag {
+		width: 80%;
+		height: 30%;
+		max-width: 450px;
+		max-height: 175px;
+	}
+}

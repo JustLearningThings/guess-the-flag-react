@@ -1,0 +1,8 @@
+#options {
+	font-family: 'Roboto', serif;
+	font-style: italic;
+}
+
+.options-input label, .options-input input {
+	cursor: pointer;
+}

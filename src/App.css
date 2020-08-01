@@ -1,0 +1,29 @@
+#game-controlls {
+	display: flex;
+	margin: 10%;
+	margin-bottom: 4%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#game-controlls .options-input {
+	min-width: 100px;
+	letter-spacing: .15em;
+	margin: 15% auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+	#game-controlls {
+		flex-direction: column;
+	}
+
+	#game-controlls .options-input {
+		/*width: 100px;*/
+		margin: 7.5% auto;
+	}
+
+	#game-controlls #options {
+		margin-top: 5%;
+	}
+}
